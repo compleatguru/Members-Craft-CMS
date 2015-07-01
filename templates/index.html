@@ -1,0 +1,22 @@
+{% extends "_layouts/cp" %}
+{% includeCssResource "members/css/members.css" %}
+
+{% set title = "Members | Dashboard"|t %}
+{% set selectedTab = 'Members' %}
+
+{% set content %}
+
+hi
+
+{% endset %}
+
+{# {% set js %}
+  var adminTable = new Craft.AdminTable({
+    tableSelector: '#forms',
+    noObjectsSelector: '#noforms',
+    newObjectBtnSelector: '#newformcontainer',
+    deleteAction: 'formBuilder/forms/deleteForm',
+    confirmDeleteMessage: '{{ "Are you sure you want to delete “{name}” and all its entries?"|t }}'
+  });
+{% endset %}
+{% includeJs js %} #}
